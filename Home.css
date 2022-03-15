@@ -1,4 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .imgbkg{
     width: 100%;
+}
+.titulo{
+    margin: 20px;
+    font-size: 6vh;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #e09200;
+    text-shadow: 2px 2px 2px #2b1d00d5;   
 }
