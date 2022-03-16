@@ -28,9 +28,22 @@
 .container{    
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-
-.c-video1, .c-video2, .c-video3{        
+video{
+    width: 100%;
+    border-radius: 16px; 
+    display: grid;
+}
+.controls{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: red;
+}
+.c-video1, .c-video2, .c-video3{       
     display: flex;
     background-color: #ff7b00;
     justify-content: center;
@@ -60,8 +73,4 @@ li{
     margin: 10px 10px 15px auto;
     width: 450px;
     min-width: 450px;
-}
-
-video{
-   border-radius: 16px;  
 }
