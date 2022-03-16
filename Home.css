@@ -29,7 +29,7 @@
     align-items: center;
 }
 .info{
-    background-color: #f7e5ce;
+    background-color:#e07f00;
     border-radius: 13px;
     
     padding: 110px 15px;
@@ -37,7 +37,7 @@
     min-width: 70%;    
     height: max-content;
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
     text-align: left;
 }
 .imgq{
