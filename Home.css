@@ -28,21 +28,16 @@
     display: flex;
     align-items: center;
 }
-.info{
-    background-color:#e07f00;
-    border-radius: 13px;
-    
-    padding: 110px 15px;
-    width: 70%;
-    min-width: 70%;    
-    height: max-content;
-    font-size: large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
-    text-align: left;
-}
+
 .imgq{
     border-radius: 13px;
     margin: 10px 10px 10px auto;
     width: 450px;
     min-width: 450px;
+}
+.video{
+    border-radius: 10px;
+    margin: 10px 10px 10px auto;
+    width: 350px;
+    min-width: 350px;
 }
