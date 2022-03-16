@@ -20,7 +20,7 @@
 }
 .subtitulo{
     font-family: 'Permanent Marker', cursive;
-    margin: 70px;
+    margin: 7vh auto;
     font-size: 5vh;
     text-align: center;
     text-shadow: 1px 1px 1px #2b1d00ab;
@@ -104,4 +104,3 @@ li:hover{
     transition: cubic-bezier(0.86, 0, 0.07, 1) 0.7s;
     cursor: pointer;
 }
-
