@@ -104,3 +104,20 @@ li:hover{
     transition: cubic-bezier(0.86, 0, 0.07, 1) 0.7s;
     cursor: pointer;
 }
+.endereco{    
+    margin-bottom: 0.2px;
+    text-align: center;
+    background-color: #ff7b00;
+    padding: 15px 0px;    
+}
+.link_endereco{
+    font-style: italic;
+    text-decoration: none;
+    font-size: 16px;
+    color:#fff;
+       
+}
+.link_endereco:hover{
+    transition: ease-in 0.3s;
+    color: #000000;
+}
