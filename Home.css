@@ -39,7 +39,7 @@ video{
     background-color: #ff7b00;
     justify-content: center;
     align-items: center;       
-    margin-right: 10px;
+    margin-right: 10px;    
     border-radius: 16px;
 }
 .list_itens{
@@ -49,6 +49,7 @@ video{
     text-align: center;         
 }
 li{
+    margin-top: 10px;
     font-weight: lighter;
     color: #fff;
     font-size: 1.6em;
