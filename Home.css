@@ -3,15 +3,20 @@
     margin: 0;
 }
 
+@media (max-width: 600px) {
+    h4 .link_endereco{
+        font-size: 14px;
+        margin: auto 2px;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .imgbkg{
     width: 100%;
 }
-
 .titulo{
-    margin: 4vh auto 3vh auto;
-    width: max-content;
+    margin: 4vh auto 6vh auto;    
     font-size: 3.8em;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -36,35 +41,35 @@ video{
 }
 .c-video1, .c-video2, .c-video3{       
     display: flex;
-    background-color: #ff7b00;
+    background-image: linear-gradient(#ff7b00,#ff9838);
     justify-content: center;
     align-items: center;       
     margin-right: 10px;    
     border-radius: 16px;
 }
 .list_itens{
-    margin-top: 12vh;
-    margin-bottom: 6vh;
-    align-items: center;
-    text-align: center;         
+    margin-top: 6vh;   
+    text-align: center; 
+    justify-content: center;        
 }
 li{
-    margin-top: 10px;
     font-weight: lighter;
     color: #fff;
     font-size: 1.6em;
     display: inline-block;    
-    background-color: #ff7b00;
-    padding: 8px 20px;
+    background-color: #ff7b00;    
+    padding: 8px 16px;
     font-family: 'Permanent Marker', cursive;
-    margin-right: 6px;
+    margin: 12px 0px 0px 4px ;
     border-radius: 8px; 
+}
+ul{
+    padding: 40px;
 }
 .imgq{
     border-radius: 16px;
-    margin: 10px 10px 15px auto;
-    width: 450px;
-    min-width: 450px;
+    margin: 10px 10px 15px 3px;
+    width: 31%;
 }
 .btn_reservar{   
     padding: 15px;
@@ -112,11 +117,11 @@ li:hover{
     padding: 15px 0px;    
 }
 .link_endereco{
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-decoration: none;
     font-size: 16px;
-    color:#fff;
-       
+    color:#fff;       
 }
 .link_endereco:hover{
     transition: ease-in 0.3s;
